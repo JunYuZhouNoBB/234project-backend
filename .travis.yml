@@ -9,9 +9,9 @@ before_install:
 install:
 - mvn install -Dmaven.javadoc.skip=true -B -V
 - ls -l
-- docker build --build-arg JAR_FILE=/target/backend.jar -t lyw1024/se234-lab11-backend:latest  .
-- docker push lyw1024/234project-backend:latest
-- docker pull "dto80/project234-frontend:latest
+- docker build --build-arg JAR_FILE=/target/backend.jar -t 592115518/234project-backend  .
+- docker push 592115518/234project-backend
+- docker pull dto80/project234-frontend:latest
 cache:
   directories:
   - "$HOME/.m2"
