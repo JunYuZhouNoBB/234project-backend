@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test suite9" time="95" tests="0" failures="2" errors="0">
+   <testsuite name="test suite9" tests="0" failures="2" errors="0" time="95" timestamp="2018-05-09 23:13:20" hostname="42916 - DESKTOP-RG5AR5M" id="Test Suites/test suite9">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319"/>
+         <property name="logFiles" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882446060.png, C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882446334.png, C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882494906.png, C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882495258.png"/>
+         <property name="hostName" value="42916 - DESKTOP-RG5AR5M"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.43.29"/>
+         <property name="sessionId" value="41fcfb07259fec1ebbea0f39e72601f4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case9" classname="Test Cases/case9" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)"/>
+         <system-out><![CDATA[2018-05-09 23:13:20 - [TEST_CASE][FAILED] - Test Cases/case9: Test Cases/case9 FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)
+
+2018-05-09 23:13:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 23:13:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 23:13:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:13:33 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:13:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-09 23:13:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-09 23:13:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-09 23:13:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-09 23:13:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:13:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:13:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:13:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/a_Carts            2' is clicked on
+
+2018-05-09 23:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/a_Carts            2' is clicked on
+
+2018-05-09 23:13:35 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Page_ProjectBackend/input_amount'
+
+2018-05-09 23:13:35 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_ProjectBackend/input_amount'
+
+2018-05-09 23:13:35 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)
+
+2018-05-09 23:14:06 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found
+[[ATTACHMENT|C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882446060.png]]
+
+2018-05-09 23:14:06 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)
+[[ATTACHMENT|C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882446334.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 23:13:20 - [TEST_CASE][FAILED] - Test Cases/case9: Test Cases/case9 FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case9" classname="Test Cases/case9" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)"/>
+         <system-out><![CDATA[2018-05-09 23:14:06 - [TEST_CASE][FAILED] - Test Cases/case9: Test Cases/case9 FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)
+
+2018-05-09 23:14:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 23:14:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 23:14:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 23:14:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:14:22 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:14:22 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-09 23:14:22 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-09 23:14:22 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-09 23:14:22 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-09 23:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:14:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-09 23:14:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/a_Carts            2' is clicked on
+
+2018-05-09 23:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/a_Carts            2' is clicked on
+
+2018-05-09 23:14:24 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Page_ProjectBackend/input_amount'
+
+2018-05-09 23:14:24 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_ProjectBackend/input_amount'
+
+2018-05-09 23:14:24 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)
+
+2018-05-09 23:14:55 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found
+[[ATTACHMENT|C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882494906.png]]
+
+2018-05-09 23:14:55 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)
+[[ATTACHMENT|C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite9\\20180509_231319\\1525882495258.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 23:14:06 - [TEST_CASE][FAILED] - Test Cases/case9: Test Cases/case9 FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 23:13:20 - [TEST_SUITE][FAILED] - test suite9: Test Cases/case9 FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-09 23:13:20 - [TEST_SUITE][FAILED] - test suite9: Test Cases/case9 FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ProjectBackend/p_Total price  580 THB' located by 'By.xpath: //p[(text() = 'Total price:  580 THB' or . = 'Total price:  580 THB')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

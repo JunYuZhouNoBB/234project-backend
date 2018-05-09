@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test suite9,Chrome 66.0.3359.139,"After selecting the products, if the user moves to the Carts page, all the selected products is shown in the cart page. The user can change the amount of products for each type of product, and the total price will be changed regarding to the input value.",2018-05-09 23:13:20,2018-05-09 23:14:56,1m - 35.851s,FAILED
+,,,,,,
+Test Cases/case9,Chrome 66.0.3359.139,,2018-05-09 23:13:20,2018-05-09 23:14:06,45.896s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 23:13:21,2018-05-09 23:13:23,2.833s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 23:13:23,2018-05-09 23:13:33,9.201s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 23:13:33,2018-05-09 23:13:33,0.234s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 23:13:33,2018-05-09 23:13:33,0.136s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:13:33,2018-05-09 23:13:33,0.152s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:13:33,2018-05-09 23:13:35,1.625s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:13:35,2018-05-09 23:13:35,0.087s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:13:35,2018-05-09 23:13:35,0.111s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 23:13:35,2018-05-09 23:13:35,0.120s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 23:13:35,2018-05-09 23:14:06,31.063s,FAILED
+,,,,,,
+Test Cases/case9,Chrome 66.0.3359.139,,2018-05-09 23:14:06,2018-05-09 23:14:55,48.925s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 23:14:06,2018-05-09 23:14:09,2.581s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 23:14:09,2018-05-09 23:14:22,12.888s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 23:14:22,2018-05-09 23:14:22,0.173s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 23:14:22,2018-05-09 23:14:22,0.152s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:14:22,2018-05-09 23:14:22,0.101s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:14:22,2018-05-09 23:14:24,1.621s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:14:24,2018-05-09 23:14:24,0.073s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 23:14:24,2018-05-09 23:14:24,0.090s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 23:14:24,2018-05-09 23:14:24,0.110s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 23:14:24,2018-05-09 23:14:55,31.117s,FAILED
