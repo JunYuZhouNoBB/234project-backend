@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>katalon</name>
+   <tag></tag>
+   <UUID>b781ec37-95bf-490f-9a5f-0daff406a53c</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
