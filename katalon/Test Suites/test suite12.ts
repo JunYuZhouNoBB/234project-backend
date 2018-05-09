@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>test suite12</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-10T00:39:33</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>1d0d893e-5e6f-4649-af5c-dd0d6447ae9c</testSuiteGuid>
+   <testCaseLink>
+      <guid>4b2c0710-2340-48e7-8a32-be80f9ab6c9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/case12</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6ad2c546-7106-4c42-aec2-9b50e759e039</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/user</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>15df0956-9981-4c9b-acf8-841cfe4f3d0c</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/sale order</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>64df529c-430d-4659-a2b8-603c43d4a7b5</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/sale order</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6ad2c546-7106-4c42-aec2-9b50e759e039</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>507b4891-2e76-4611-bd58-eda9c646f515</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6ad2c546-7106-4c42-aec2-9b50e759e039</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>f758af0c-0d44-4fc5-9be8-210327bd7024</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15df0956-9981-4c9b-acf8-841cfe4f3d0c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SaleOrderId</value>
+         <variableId>bd6f63be-f8e8-4f92-9db7-6cd31a3ec8c9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15df0956-9981-4c9b-acf8-841cfe4f3d0c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SaleTransactoin</value>
+         <variableId>12b6cfcc-22e3-4c94-bb9e-dba986d8ebc5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64df529c-430d-4659-a2b8-603c43d4a7b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SaleOrderId</value>
+         <variableId>3651284e-e1af-4b72-af14-543e58954684</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64df529c-430d-4659-a2b8-603c43d4a7b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SaleTransactoin</value>
+         <variableId>4e7c723a-eb73-40c2-ac9e-5e3aebd2956b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

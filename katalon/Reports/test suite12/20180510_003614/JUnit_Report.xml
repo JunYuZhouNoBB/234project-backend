@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test suite12" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="test suite12" tests="1" failures="0" errors="0" time="15" timestamp="2018-05-10 00:36:15" hostname="42916 - DESKTOP-RG5AR5M" id="Test Suites/test suite12">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite12\\20180510_003614"/>
+         <property name="logFiles" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite12\\20180510_003614\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="42916 - DESKTOP-RG5AR5M"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.43.29"/>
+         <property name="sessionId" value="2b213225bc3abe8054a44c344b4dfece"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case12" classname="Test Cases/case12" status="PASSED">
+         <system-out><![CDATA[2018-05-10 00:36:15 - [TEST_CASE][PASSED] - Test Cases/case12: Test Cases/case12
+
+2018-05-10 00:36:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 00:36:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 00:36:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-10 00:36:27 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-10 00:36:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-10 00:36:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-10 00:36:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-10 00:36:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-10 00:36:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 00:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 00:36:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 00:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 00:36:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_1' is clicked on
+
+2018-05-10 00:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_1' is clicked on
+
+2018-05-10 00:36:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_Garden Papaya' is clicked on
+
+2018-05-10 00:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_Garden Papaya' is clicked on
+
+2018-05-10 00:36:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_2' is clicked on
+
+2018-05-10 00:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_2' is clicked on
+
+2018-05-10 00:36:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_Banana Garden Banana Rambut' is clicked on
+
+2018-05-10 00:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_Banana Garden Banana Rambut' is clicked on
+
+2018-05-10 00:36:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_3' is clicked on
+
+2018-05-10 00:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_3' is clicked on
+
+2018-05-10 00:36:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_Banana Orange' is clicked on
+
+2018-05-10 00:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_Banana Orange' is clicked on
+
+2018-05-10 00:36:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 00:36:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 00:36:15 - [TEST_SUITE][PASSED] - test suite12: Test Cases/case12]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
