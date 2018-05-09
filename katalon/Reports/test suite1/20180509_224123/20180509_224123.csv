@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test suite1,Chrome 66.0.3359.139,"When the user opens the web site, the system will bring the user to the login page",2018-05-09 22:41:25,2018-05-09 22:41:40,14.971s,PASSED
+,,,,,,
+Test Cases/case1,Chrome 66.0.3359.139,"When the user opens the web site, the system will bring the user to the login page",2018-05-09 22:41:25,2018-05-09 22:41:40,14.582s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 22:41:25,2018-05-09 22:41:30,4.750s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 22:41:30,2018-05-09 22:41:38,8.436s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 22:41:38,2018-05-09 22:41:39,0.136s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 22:41:39,2018-05-09 22:41:39,0.112s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 22:41:39,2018-05-09 22:41:39,0.051s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 22:41:39,2018-05-09 22:41:40,0.832s,PASSED
