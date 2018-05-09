@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test suite6,Chrome 66.0.3359.139,"If the user empties the password box, the warning message \u201CPassword is required\u201D is shown",2018-05-09 22:50:01,2018-05-09 22:50:14,13.128s,PASSED
+,,,,,,
+Test Cases/case6,Chrome 66.0.3359.139,,2018-05-09 22:50:01,2018-05-09 22:50:14,12.775s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 22:50:01,2018-05-09 22:50:04,2.810s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 22:50:04,2018-05-09 22:50:13,8.578s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 22:50:13,2018-05-09 22:50:13,0.205s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 22:50:13,2018-05-09 22:50:13,0.102s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 22:50:13,2018-05-09 22:50:13,0.068s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 22:50:13,2018-05-09 22:50:14,0.747s,PASSED
