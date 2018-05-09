@@ -8,6 +8,4 @@ install:
 - docker build --build-arg JAR_FILE=/target/backend.jar -t 592115518/234project-backend  .
 - docker push 592115518/234project-backend
 script:
-- docker-compose -H "$DOCKER_HOST" stop -d
-- docker-compose -H "$DOCKER_HOST" rm -d
 - docker-compose -H "$DOCKER_HOST" up -d
