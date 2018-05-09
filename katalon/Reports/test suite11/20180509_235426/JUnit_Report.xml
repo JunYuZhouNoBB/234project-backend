@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test suite11" time="41" tests="3" failures="0" errors="0">
+   <testsuite name="test suite11" tests="3" failures="0" errors="0" time="41" timestamp="2018-05-09 23:54:27" hostname="42916 - DESKTOP-RG5AR5M" id="Test Suites/test suite11">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite11\\20180509_235426"/>
+         <property name="logFiles" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite11\\20180509_235426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="42916 - DESKTOP-RG5AR5M"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.43.29"/>
+         <property name="sessionId" value="155f669bdc4ca1f2d69490949775b115"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case11" classname="Test Cases/case11" status="PASSED">
+         <system-out><![CDATA[2018-05-09 23:54:27 - [TEST_CASE][PASSED] - Test Cases/case11: Test Cases/case11
+
+2018-05-09 23:54:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 23:54:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 23:54:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:54:40 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:54:40 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/case11_Page_ProjectBackend/input_username'
+
+2018-05-09 23:54:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/case11_Page_ProjectBackend/input_username'
+
+2018-05-09 23:54:41 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/case11_Page_ProjectBackend/input_password'
+
+2018-05-09 23:54:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/case11_Page_ProjectBackend/input_password'
+
+2018-05-09 23:54:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:54:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-09 23:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-09 23:54:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 23:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 23:54:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 23:54:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case11" classname="Test Cases/case11" status="PASSED">
+         <system-out><![CDATA[2018-05-09 23:54:43 - [TEST_CASE][PASSED] - Test Cases/case11: Test Cases/case11
+
+2018-05-09 23:54:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 23:54:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 23:54:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:54:53 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:54:53 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/case11_Page_ProjectBackend/input_username'
+
+2018-05-09 23:54:53 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/case11_Page_ProjectBackend/input_username'
+
+2018-05-09 23:54:53 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/case11_Page_ProjectBackend/input_password'
+
+2018-05-09 23:54:53 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/case11_Page_ProjectBackend/input_password'
+
+2018-05-09 23:54:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:54:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-09 23:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-09 23:54:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 23:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 23:54:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 23:54:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case11" classname="Test Cases/case11" status="PASSED">
+         <system-out><![CDATA[2018-05-09 23:54:55 - [TEST_CASE][PASSED] - Test Cases/case11: Test Cases/case11
+
+2018-05-09 23:54:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 23:54:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 23:54:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:55:06 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 23:55:06 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/case11_Page_ProjectBackend/input_username'
+
+2018-05-09 23:55:06 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/case11_Page_ProjectBackend/input_username'
+
+2018-05-09 23:55:06 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/case11_Page_ProjectBackend/input_password'
+
+2018-05-09 23:55:06 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/case11_Page_ProjectBackend/input_password'
+
+2018-05-09 23:55:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 23:55:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-09 23:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-09 23:55:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case11_Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 23:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/case11_Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 23:55:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 23:55:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 23:54:27 - [TEST_SUITE][PASSED] - test suite11: Test Cases/case11]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

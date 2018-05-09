@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When the user clicks logout button, the system will return to the login page</description>
+   <name>case11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a925a56-178d-4fc9-990c-fade3e16e9c8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b03c6cd5-16bd-41d7-abd1-62f7a4472819</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d89db2a-28e6-4c5d-9dfe-298d58b18b95</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
