@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.218.253:9998/')
 
-WebUI.setText(findTestObject('case9_Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('case9_Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('case9_Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('case9_Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('case9_Page_ProjectBackend/button_Login'))
 
