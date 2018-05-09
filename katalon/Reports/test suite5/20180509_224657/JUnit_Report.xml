@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test suite5" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="test suite5" tests="1" failures="0" errors="0" time="12" timestamp="2018-05-09 22:46:58" hostname="42916 - DESKTOP-RG5AR5M" id="Test Suites/test suite5">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite5\\20180509_224657"/>
+         <property name="logFiles" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite5\\20180509_224657\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="42916 - DESKTOP-RG5AR5M"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.43.29"/>
+         <property name="sessionId" value="05a8921c85da2ab8144193aac6bfadfd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case5" classname="Test Cases/case5" status="PASSED">
+         <system-out><![CDATA[2018-05-09 22:46:59 - [TEST_CASE][PASSED] - Test Cases/case5: Test Cases/case5
+
+2018-05-09 22:46:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 22:47:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 22:47:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 22:47:10 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 22:47:10 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/case5_Page_ProjectBackend/input_password'
+
+2018-05-09 22:47:10 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/case5_Page_ProjectBackend/input_password'
+
+2018-05-09 22:47:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case5_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 22:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/case5_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 22:47:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/case5_Page_ProjectBackend/label_Username is required' are matched.
+
+2018-05-09 22:47:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/case5_Page_ProjectBackend/label_Username is required' are matched.
+
+2018-05-09 22:47:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 22:47:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 22:46:58 - [TEST_SUITE][PASSED] - test suite5: Test Cases/case5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

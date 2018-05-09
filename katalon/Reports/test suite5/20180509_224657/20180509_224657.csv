@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test suite5,Chrome 66.0.3359.139,"If the user empties the user name box, the warning message \u201CUsername is required\u201D is shown",2018-05-09 22:46:58,2018-05-09 22:47:11,12.845s,PASSED
+,,,,,,
+Test Cases/case5,Chrome 66.0.3359.139,,2018-05-09 22:46:59,2018-05-09 22:47:11,12.461s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 22:46:59,2018-05-09 22:47:02,2.849s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 22:47:02,2018-05-09 22:47:10,8.203s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 22:47:10,2018-05-09 22:47:10,0.211s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 22:47:10,2018-05-09 22:47:10,0.094s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 22:47:10,2018-05-09 22:47:10,0.060s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 22:47:10,2018-05-09 22:47:11,0.747s,PASSED
