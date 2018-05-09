@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>If the user is user role, the system will go to the user page which consists of “Products” and “Carts” menus</description>
    <name>test suite3</name>
    <tag></tag>
    <isRerun>false</isRerun>

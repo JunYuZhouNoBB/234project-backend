@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>When the user opens the web site, the system will bring the user to the login page</description>
    <name>case1</name>
    <tag></tag>
    <comment></comment>

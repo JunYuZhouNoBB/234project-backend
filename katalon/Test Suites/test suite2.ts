@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>If the user is admin role, the system will go to the admin page which consists of “Products”, and “Total Transaction” menus</description>
    <name>test suite2</name>
    <tag></tag>
    <isRerun>false</isRerun>

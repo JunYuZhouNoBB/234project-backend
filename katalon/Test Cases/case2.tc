@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If the user is admin role, the system will go to the admin page which consists of “Products”, and “Total Transaction” menus</description>
    <name>case2</name>
    <tag></tag>
    <comment></comment>

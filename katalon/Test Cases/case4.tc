@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If the user name and password is not correct, the error message, “Username/password is incorrect” is shown</description>
    <name>case4</name>
    <tag></tag>
    <comment></comment>

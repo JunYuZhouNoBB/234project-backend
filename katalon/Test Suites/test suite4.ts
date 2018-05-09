@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
+<<<<<<< HEAD
+   <description>If the user name and password is not correct, the error message, “Username/password is incorrect” is shown</description>
+=======
    <description></description>
+>>>>>>> master
    <name>test suite4</name>
    <tag></tag>
    <isRerun>false</isRerun>
