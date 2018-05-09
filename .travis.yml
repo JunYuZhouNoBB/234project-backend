@@ -1,18 +1,14 @@
 language: java
-script:
-- docker-compose -H "$DOCKER_HOST" up -d
 before_install:
-- sudo rm /usr/local/bin/docker-compose
-- sudo curl -L https://github.com/docker/compose/releases/download/1.20.1/docker-compose-`uname
-  -s`-`uname -m` -o /usr/local/bin/docker-compose
-- chmod +x docker-compose
-- sudo mv docker-compose /usr/local/bin
+- sudo curl -sL -o /usr/local/bin/docker-compose https://github.com/docker/compose/releases/download/1.21.0/docker-compose-"$(uname -s)"-"$(uname -m)"
+- sudo chmod    +x /usr/local/bin/docker-compose
 - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
 install:
 - mvn install -Dmaven.javadoc.skip=true -B -V
-- ls -l
 - docker build --build-arg JAR_FILE=/target/backend.jar -t 592115518/234project-backend  .
 - docker push 592115518/234project-backend
+script:
+- docker-compose -H "$DOCKER_HOST" up -d
 cache:
   directories:
   - "$HOME/.m2"
