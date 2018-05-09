@@ -24,15 +24,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.218.253:9998/')
 
-WebUI.setText(findTestObject('case1_Page_ProjectBackend/input_username'), username)
+WebUI.setText(findTestObject('case2_Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('case1_Page_ProjectBackend/input_password'), password)
+WebUI.setText(findTestObject('case2_Page_ProjectBackend/input_password'), password)
 
-WebUI.click(findTestObject('case1_Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('case2_Page_ProjectBackend/button_Login'))
 
-WebUI.verifyElementClickable(findTestObject('case1_Page_ProjectBackend/a_Total Transaction'))
+WebUI.verifyElementClickable(findTestObject('case2_Page_ProjectBackend/a_Total Transaction'))
 
-WebUI.verifyElementClickable(findTestObject('case1_Page_ProjectBackend/a_Products'))
+WebUI.verifyElementClickable(findTestObject('case2_Page_ProjectBackend/a_Products'))
 
 WebUI.closeBrowser()
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Products</name>
    <tag></tag>
-   <elementGuidId>3443a786-5f92-4306-9946-8a5fbcf17f29</elementGuidId>
+   <elementGuidId>50b0dcd7-cf8c-43e4-ad92-ce8e266ef010</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -54,6 +54,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item active&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

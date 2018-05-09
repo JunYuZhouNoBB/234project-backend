@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>test suite2</name>
+   <name>test suite3</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T18:21:40</lastRun>
+   <lastRun>2018-05-09T18:29:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>4b4e0db3-a90e-4226-9af4-4814127810d2</testSuiteGuid>
+   <testSuiteGuid>19888763-421a-4c4c-874b-7b5e36c36321</testSuiteGuid>
    <testCaseLink>
-      <guid>895af04b-0922-4dd1-bd59-9c8aa3bf3c85</guid>
+      <guid>596ecee1-88b6-453a-8901-443435a3f944</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/case2</testCaseId>
+      <testCaseId>Test Cases/case3</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>864ce91f-3e6a-45f2-b5df-07ebf2c949f8</id>
+         <combinationType>MANY</combinationType>
+         <id>00c65cfe-0a81-4edb-9173-8c25349198ad</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-1</value>
+            <value>2-3</value>
          </iterationEntity>
          <testDataId>Data Files/user</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>864ce91f-3e6a-45f2-b5df-07ebf2c949f8</testDataLinkId>
+         <testDataLinkId>00c65cfe-0a81-4edb-9173-8c25349198ad</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>73ffe4d2-adbd-47f1-a5d5-0c3bcc8396a7</variableId>
+         <variableId>95754178-2692-4d48-a7de-9678a51441ee</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>864ce91f-3e6a-45f2-b5df-07ebf2c949f8</testDataLinkId>
+         <testDataLinkId>00c65cfe-0a81-4edb-9173-8c25349198ad</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>7334dd17-efd2-4ee9-9948-7085936938cb</variableId>
+         <variableId>327992e4-be84-4776-952f-a882cc3ec554</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

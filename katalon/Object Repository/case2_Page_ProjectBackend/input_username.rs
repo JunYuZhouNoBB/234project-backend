@@ -3,7 +3,7 @@
    <description></description>
    <name>input_username</name>
    <tag></tag>
-   <elementGuidId>281068a9-91b6-4704-9ed0-6ee9f8c85c17</elementGuidId>
+   <elementGuidId>a69faf1c-6c05-412a-bfdf-fdd21960de62</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>u</value>
+      <value>d</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
