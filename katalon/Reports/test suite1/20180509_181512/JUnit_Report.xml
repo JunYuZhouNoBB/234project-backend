@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test suite1" time="102" tests="1" failures="2" errors="0">
+   <testsuite name="test suite1" tests="1" failures="2" errors="0" time="102" timestamp="2018-05-09 18:15:14" hostname="42916 - 10.80.141.151" id="Test Suites/test suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite1\\20180509_181512"/>
+         <property name="logFiles" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite1\\20180509_181512\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite1\\20180509_181512\\1525864570570.png, C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite1\\20180509_181512\\1525864615397.png"/>
+         <property name="hostName" value="42916 - 10.80.141.151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.141.151"/>
+         <property name="sessionId" value="2e3fb53085e38917727e68f6cbfe3d99"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case1" classname="Test Cases/case1" status="PASSED">
+         <system-out><![CDATA[2018-05-09 18:15:14 - [TEST_CASE][PASSED] - Test Cases/case1: Test Cases/case1
+
+2018-05-09 18:15:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 18:15:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 18:15:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 18:15:28 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 18:15:28 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/case1_Page_ProjectBackend/input_username'
+
+2018-05-09 18:15:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/case1_Page_ProjectBackend/input_username'
+
+2018-05-09 18:15:28 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/case1_Page_ProjectBackend/input_password'
+
+2018-05-09 18:15:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/case1_Page_ProjectBackend/input_password'
+
+2018-05-09 18:15:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case1_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 18:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/case1_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 18:15:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-09 18:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-09 18:15:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case1_Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-09 18:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/case1_Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-09 18:15:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 18:15:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case1" classname="Test Cases/case1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)"/>
+         <system-out><![CDATA[2018-05-09 18:15:30 - [TEST_CASE][FAILED] - Test Cases/case1: Test Cases/case1 FAILED because (of) Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)
+
+2018-05-09 18:15:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 18:15:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 18:15:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 18:15:39 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 18:15:39 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/case1_Page_ProjectBackend/input_username'
+
+2018-05-09 18:15:39 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/case1_Page_ProjectBackend/input_username'
+
+2018-05-09 18:15:39 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/case1_Page_ProjectBackend/input_password'
+
+2018-05-09 18:15:39 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/case1_Page_ProjectBackend/input_password'
+
+2018-05-09 18:15:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case1_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 18:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/case1_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 18:15:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)
+
+2018-05-09 18:16:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)
+[[ATTACHMENT|C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite1\\20180509_181512\\1525864570570.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 18:15:30 - [TEST_CASE][FAILED] - Test Cases/case1: Test Cases/case1 FAILED because (of) Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case1" classname="Test Cases/case1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)"/>
+         <system-out><![CDATA[2018-05-09 18:16:10 - [TEST_CASE][FAILED] - Test Cases/case1: Test Cases/case1 FAILED because (of) Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)
+
+2018-05-09 18:16:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 18:16:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 18:16:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 18:16:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 18:16:24 - [MESSAGE][PASSED] - Navigate to 'http://34.215.218.253:9998/' successfully
+
+2018-05-09 18:16:24 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/case1_Page_ProjectBackend/input_username'
+
+2018-05-09 18:16:24 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/case1_Page_ProjectBackend/input_username'
+
+2018-05-09 18:16:24 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/case1_Page_ProjectBackend/input_password'
+
+2018-05-09 18:16:24 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/case1_Page_ProjectBackend/input_password'
+
+2018-05-09 18:16:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/case1_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 18:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/case1_Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 18:16:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)
+
+2018-05-09 18:16:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)
+[[ATTACHMENT|C:\\Users\\42916\\Desktop\\Advance Software Development\\project\\234project-backend\\katalon\\Reports\\test suite1\\20180509_181512\\1525864615397.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 18:16:10 - [TEST_CASE][FAILED] - Test Cases/case1: Test Cases/case1 FAILED because (of) Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 18:15:14 - [TEST_SUITE][FAILED] - test suite1: Test Cases/case1 FAILED because (of) Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-09 18:15:14 - [TEST_SUITE][FAILED] - test suite1: Test Cases/case1 FAILED because (of) Unable to click on object 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/case1_Page_ProjectBackend/a_Total Transaction' located by 'By.xpath: //a[@href = '/total' and (text() = 'Total Transaction' or . = 'Total Transaction')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
