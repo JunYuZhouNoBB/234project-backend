@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When the user is in the Products page, all the available products are shown in the web page</description>
+   <name>case7</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e859ae7-81a5-41b6-963f-9a099fd6edbb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a25deff8-c9ca-4b18-8f62-dbc71142a9c5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26dfa655-e4da-46a2-adfa-e000145f296e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
