@@ -8,7 +8,10 @@ services:
     image: dto80/project234-frontend:latest
     ports:
       - "9998:80"
+<<<<<<< HEAD
     volumes:
       - type: bind
         source: ./dockerpath
         target: /usr/share/nginx/html/assets
+=======
+>>>>>>> deploy
