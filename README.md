@@ -9,5 +9,5 @@ URL:
 Backend: 
             34.215.218.253:9999
 Katalon test repository: 
-            https://github.com/JunYuZhouNoBB/234project-backend/tree/master/katalon
+            https://github.com/JunYuZhouNoBB/234project-backend/tree/master/katalon (Same repository.)
             
