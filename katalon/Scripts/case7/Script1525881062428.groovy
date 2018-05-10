@@ -30,15 +30,15 @@ WebUI.setText(findTestObject('case7_Page_ProjectBackend/input_password'), passwo
 
 WebUI.click(findTestObject('case7_Page_ProjectBackend/button_Login'))
 
-WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Garden'), 'Garden')
+WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Garden'), product1)
 
-WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Banana'), 'Banana')
+WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Banana'), product2)
 
-WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Orange'), 'Orange')
+WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Orange'), product3)
 
-WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Papaya'), 'Papaya')
+WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Papaya'), product4)
 
-WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Rambutan'), 'Rambutan')
+WebUI.verifyElementText(findTestObject('case7_Page_ProjectBackend/h5_Rambutan'), product5)
 
 WebUI.closeBrowser()
 

@@ -4,6 +4,12 @@
    <name>h5_Garden</name>
    <tag></tag>
    <elementGuidId>dddf236a-09c3-4f5e-ab75-2729a1ceb8b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Garden' or . = 'Garden')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

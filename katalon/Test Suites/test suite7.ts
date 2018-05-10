@@ -4,7 +4,7 @@
    <name>test suite7</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T22:56:25</lastRun>
+   <lastRun>2018-05-10T16:04:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,10 +20,55 @@
          <combinationType>MANY</combinationType>
          <id>da658703-f460-48f7-bb03-355f57a492d6</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>2-3</value>
          </iterationEntity>
          <testDataId>Data Files/user</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d7be2f56-c738-4adb-85d7-b64eb13d2bed</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/product</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>76e84a53-5cfe-4e0c-84a5-88f399fc35fb</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/product</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>83c513f0-4dae-44d2-a419-b067ecb11c2b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>3-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/product</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f3d7d3fc-1916-41e2-ba20-94b4013f4199</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>4-4</value>
+         </iterationEntity>
+         <testDataId>Data Files/product</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a2b1d638-03f3-4b4b-8780-70c94250ff76</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>5-5</value>
+         </iterationEntity>
+         <testDataId>Data Files/product</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>da658703-f460-48f7-bb03-355f57a492d6</testDataLinkId>
@@ -36,6 +81,36 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>26dfa655-e4da-46a2-adfa-e000145f296e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d7be2f56-c738-4adb-85d7-b64eb13d2bed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>630af954-f304-4a39-b1ac-606b112e3c19</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76e84a53-5cfe-4e0c-84a5-88f399fc35fb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>c8b9d06b-dd91-49c9-804b-651f50adfe8c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>83c513f0-4dae-44d2-a419-b067ecb11c2b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>21f20d73-759b-4b8d-aae0-0b4f2fa9027f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f3d7d3fc-1916-41e2-ba20-94b4013f4199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>e86451c3-47e0-4dc1-bf53-6e5fc8fca7a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a2b1d638-03f3-4b4b-8780-70c94250ff76</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>d9d29273-166a-45cc-8b6c-d46f3ea42940</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -19,4 +19,39 @@
       <masked>false</masked>
       <name>password</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>630af954-f304-4a39-b1ac-606b112e3c19</id>
+      <masked>false</masked>
+      <name>product1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8b9d06b-dd91-49c9-804b-651f50adfe8c</id>
+      <masked>false</masked>
+      <name>product2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21f20d73-759b-4b8d-aae0-0b4f2fa9027f</id>
+      <masked>false</masked>
+      <name>product3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e86451c3-47e0-4dc1-bf53-6e5fc8fca7a1</id>
+      <masked>false</masked>
+      <name>product4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d9d29273-166a-45cc-8b6c-d46f3ea42940</id>
+      <masked>false</masked>
+      <name>product5</name>
+   </variable>
 </TestCaseEntity>
